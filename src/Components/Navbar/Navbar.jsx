@@ -16,7 +16,7 @@ import {
   IconSearch,
 } from "@tabler/icons-react";
 import { Link, useLocation } from "react-router-dom";
-import logoSrc from "../../assets/images/Logo1.png";   // path apne hisaab se adjust karo
+import logoSrc from "../../assets/images/logo1.png";   // path apne hisaab se adjust karo
 
 const Navbar = () => {
   const [opened, { open, close }] = useDisclosure(false);
